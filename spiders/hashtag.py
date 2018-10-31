@@ -6,7 +6,7 @@ import os.path
 
 from scrapy.exceptions import CloseSpider
 
-from scrapy_instagram.items import Post
+from instagramscraper.items import Post
 
 class InstagramSpider(scrapy.Spider):
     name = "hashtag"  # Name of the Spider, required value
