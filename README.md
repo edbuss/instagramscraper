@@ -1,3 +1,14 @@
+
+at same level of instagramscraper, create new file `scrapy.cfg` with:
+
+```
+# basic information for scrapy cfg file
+
+[settings]
+default = instagramscraper.settings
+```
+
+
 # Instagram Scrapy Scraper
 
 > Some scrapy spiders useful to crawl instagram posts using public APIS (No TOKEN)
